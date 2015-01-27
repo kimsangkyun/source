@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="hello">Hello World, IndoorNavigator!</string>
+    <string name="app_name">Indoor Navigator</string>
+	<string name="Search">Search</string>
+	<string name="FindUtility">Find Utility</string>
+	<string name="FindRoute">Find Route</string>
+	<string name="EditPOI">Edit Point of Interest</string>
+	<string name="prompt">Select the building</string>
+	<string name="promptUtility">Select the Utility</string>
+	<string name="promptNode1">Select the first location</string>
+	<string name="promptNode2">Select the second location</string>
+</resources>

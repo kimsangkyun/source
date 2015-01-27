@@ -1,0 +1,105 @@
+
+
+<building Description="Walker Lab" Lattitude="1" Longitude="2">
+    <elevator Id="1" Type="Exit" Description="Front stairway"></elevator>
+    <elevator Id="2" Type="Exit" Description="Back stairway"></elevator>
+    <elevator Id="3" Type="Exit" Description="Elevator"></elevator>
+    
+    <floor Id="1"><!-- node 28 -->
+        <node Id="44" Type="Room" Description="5113" X="320" Y="500"></node>
+        <node Id="45" Type="Room" Description="East lab 5" X="320" Y="150"></node>
+        <node Id="46" Type="Room" Description="West lab 5" X="10" Y="200"></node>
+        <node Id="47" Type="Room" Description="Research office 5" X="25" Y="20"></node>
+        <node Id="48" Type="Exit" Description="North stairs 5" X="10" Y="30"></node>
+        <node Id="49" Type="Exit" Description="South stairs 5" X="630" Y="630"></node>
+        <node Id="410" Type="Exit" Description="Elevator 5" X="10" Y="350"></node>
+        <node Id="411" Type="Bathroom" Description="Women's room" X="10" Y="450"></node>
+        <node Id="412" Type="Room" Description="5113 west entrance" X="70" Y="395"></node>
+        <node Id="413" Type="Room" Description="5113 east entrance" X="600" Y="550"></node>
+        <node Id="414" Type="Room" Description="East lab 5 entrance" X="40" Y="180"></node>
+        
+        <elevator Id="440" ElevatorId="1" X="10" Y="30"></elevator>
+        <elevator Id="441" ElevatorId="2" X="630" Y="630"></elevator>
+        <elevator Id="442" ElevatorId="3" X="10" Y="350"></elevator>
+        
+        <area Id="420" Left="10" Right="40" Bottom="500" Top="20"/>
+        <area Id="421" Left="40" Right="600" Bottom="380" Top="350"/>
+        <area Id="422" Left="600" Right="630" Bottom="650" Top="350"/>
+        <area Id="423" Left="40" Right="70" Bottom="410" Top="380"/>
+        
+        <node Id="430" Type="Hidden" Description="North top hallway 5" X="25" Y="50"></node>
+        <node Id="431" Type="Hidden" Description="Intersection near 5113 west" X="30" Y="370"></node>
+        <node Id="432" Type="Hidden" Description="Intersection near 5113 east" X="615" Y="365"></node>
+        
+        <edge FromId="430" ToId="47"></edge>
+        <edge FromId="430" ToId="48"></edge>
+        <edge FromId="430" ToId="414"></edge>
+        <edge FromId="430" ToId="46"></edge>
+        <edge FromId="430" ToId="431"></edge>
+        <edge FromId="431" ToId="410"></edge>
+        <edge FromId="431" ToId="411"></edge>
+        <edge FromId="431" ToId="412"></edge>
+        <edge FromId="431" ToId="432"></edge>
+        <edge FromId="432" ToId="413"></edge>
+        <edge FromId="432" ToId="49"></edge>
+        <edge FromId="49" ToId="413"></edge>
+        <edge FromId="44" ToId="412"></edge>
+        <edge FromId="44" ToId="413"></edge>
+        <edge FromId="45" ToId="414"></edge>
+        <edge FromId="46" ToId="414"></edge>
+        <edge FromId="431" ToId="414"></edge>
+        <edge FromId="431" ToId="46"></edge>
+        
+        <edge FromId="8" ToId="48"></edge>
+        <edge FromId="9" ToId="49"></edge>
+        <edge FromId="10" ToId="410"></edge>
+        
+    </floor>
+    
+    <floor Id="2">
+        <node Id="4" Type="Room" Description="6113" X="320" Y="500"></node>
+        <node Id="5" Type="Room" Description="East lab 6" X="320" Y="150"></node>
+        <node Id="6" Type="Room" Description="West lab 6" X="10" Y="200"></node>
+        <node Id="7" Type="Room" Description="Research office 6" X="25" Y="20"></node>
+        <node Id="8" Type="Exit" Description="North stairs 6" X="10" Y="30"></node>
+        <node Id="9" Type="Exit" Description="South stairs 6" X="630" Y="630"></node>
+        <node Id="10" Type="Exit" Description="Elevator 6" X="10" Y="350"></node>
+        <node Id="11" Type="Bathroom" Description="Men's room" X="10" Y="450"></node>
+        <node Id="12" Type="Room" Description="6113 west entrance" X="70" Y="395"></node>
+        <node Id="13" Type="Room" Description="6113 east entrance" X="600" Y="550"></node>
+        <node Id="14" Type="Room" Description="East lab 6 entrance" X="40" Y="180"></node>
+        
+        <elevator Id="40" ElevatorId="1" X="10" Y="30"></elevator>
+        <elevator Id="41" ElevatorId="2" X="630" Y="630"></elevator>
+        <elevator Id="42" ElevatorId="3" X="10" Y="350"></elevator>
+        
+        <area Id="20" Left="10" Right="40" Bottom="500" Top="20"/>
+        <area Id="21" Left="40" Right="600" Bottom="380" Top="350"/>
+        <area Id="22" Left="600" Right="630" Bottom="650" Top="350"/>
+        <area Id="23" Left="40" Right="70" Bottom="410" Top="380"/>
+        
+        <node Id="30" Type="Hidden" Description="North top hallway" X="25" Y="50"></node>
+        <node Id="31" Type="Hidden" Description="Intersection near 6113 west" X="30" Y="370"></node>
+        <node Id="32" Type="Hidden" Description="Intersection near 6113 east" X="615" Y="365"></node>
+        
+        <edge FromId="30" ToId="7"></edge>
+        <edge FromId="30" ToId="8"></edge>
+        <edge FromId="30" ToId="14"></edge>
+        <edge FromId="30" ToId="6"></edge>
+        <edge FromId="30" ToId="31"></edge>
+        <edge FromId="31" ToId="10"></edge>
+        <edge FromId="31" ToId="11"></edge>
+        <edge FromId="31" ToId="12"></edge>
+        <edge FromId="31" ToId="32"></edge>
+        <edge FromId="32" ToId="13"></edge>
+        <edge FromId="32" ToId="9"></edge>
+        <edge FromId="9" ToId="13"></edge>
+        <edge FromId="4" ToId="12"></edge>
+        <edge FromId="4" ToId="13"></edge>
+        <edge FromId="5" ToId="14"></edge>
+        <edge FromId="6" ToId="14"></edge>
+        <edge FromId="31" ToId="14"></edge>
+        <edge FromId="31" ToId="6"></edge>
+    </floor>
+
+</building>
